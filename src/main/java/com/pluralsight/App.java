@@ -4,12 +4,7 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) {
-        Moped moped = new Moped();
-        moped.setKickstandDown(true);
-        moped.setColor("Blue");
-        moped.setCargoCapacity(10);
-        moped.setFuelCapacity(9);
-        moped.setNumberOfPassengers(2);
+        Moped moped = new Moped("Blue", 10, 9, 2, 0, true);
 
         Car car = new Car();
         car.setBodyStyle("Sedan");
