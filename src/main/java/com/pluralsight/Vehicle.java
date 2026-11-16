@@ -5,6 +5,7 @@ public class Vehicle {
     private int numberOfPassengers;
     private int cargoCapacity;
     private int fuelCapacity;
+    private int speed;
 
     // constructor
 
@@ -38,5 +39,13 @@ public class Vehicle {
 
     public void setFuelCapacity(int fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
+    }
+
+    public void accelerate(int speed) {
+        // accelerate vehicle
+    }
+
+    public void brake(int speed) {
+        // brake vehicle
     }
 }
