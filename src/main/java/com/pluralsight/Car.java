@@ -3,7 +3,7 @@ package com.pluralsight;
 public class Car extends Vehicle {
     private String bodyStyle;
     private String vin;
-    private Trunk trunk;
+    //private Trunk trunk;
     private boolean trunkOpen;
 
 
