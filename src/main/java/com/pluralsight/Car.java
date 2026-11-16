@@ -6,7 +6,12 @@ public class Car extends Vehicle {
     //private Trunk trunk;
     private boolean trunkOpen;
 
-
+    public Car (String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int speed, String bodyStyle, String vin, boolean trunkOpen) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity, speed);
+        this.bodyStyle = bodyStyle;
+        this.vin = vin;
+        this.trunkOpen = trunkOpen;
+    }
 
     public String getBodyStyle() {
         return bodyStyle;

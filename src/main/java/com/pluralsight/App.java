@@ -6,14 +6,7 @@ public class App {
     public static void main(String[] args) {
         Moped moped = new Moped("Blue", 10, 9, 2, 0, true);
 
-        Car car = new Car();
-        car.setBodyStyle("Sedan");
-        car.setTrunkOpen(false);
-        car.setVin("10223525h");
-        car.setCargoCapacity(35);
-        car.setColor("Black");
-        car.setFuelCapacity(13);
-        car.setNumberOfPassengers(5);
+        Car car = new Car("Black", 5, 35, 13, 0, "Sedan", "2346234678234678", false);
 
         SemiTruck semiTruck = new SemiTruck();
         semiTruck.setLoad("Stones");
