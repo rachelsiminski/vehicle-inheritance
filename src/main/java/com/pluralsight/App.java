@@ -8,13 +8,7 @@ public class App {
 
         Car car = new Car("Black", 5, 35, 13, 0, "Sedan", "2346234678234678", false);
 
-        SemiTruck semiTruck = new SemiTruck();
-        semiTruck.setLoad("Stones");
-        semiTruck.setTrailerAttached(true);
-        semiTruck.setCargoCapacity(5000);
-        semiTruck.setColor("Burgundy");
-        semiTruck.setFuelCapacity(2000);
-        semiTruck.setNumberOfPassengers(2);
+        SemiTruck semiTruck = new SemiTruck("Burgundy",2, 5000, 2000, 0, "Stones and Bricks", true);
 
         Hovercraft hovercraft = new Hovercraft();
         hovercraft.setSkirtInflated(true);
