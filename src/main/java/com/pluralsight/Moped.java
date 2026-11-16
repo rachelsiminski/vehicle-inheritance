@@ -12,4 +12,6 @@ public class Moped extends Vehicle{
     public void setKickstandDown(boolean kickstandDown) {
         isKickstandDown = kickstandDown;
     }
+
+
 }

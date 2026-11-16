@@ -3,6 +3,9 @@ package com.pluralsight;
 public class Car extends Vehicle {
     private String bodyStyle;
     private String vin;
+    private Trunk trunk;
+    private boolean trunkOpen;
+
 
 
     public String getBodyStyle() {
@@ -19,5 +22,17 @@ public class Car extends Vehicle {
 
     public void setVin(String vin) {
         this.vin = vin;
+    }
+
+    public boolean getTrunkOpen() {
+        return trunkOpen;
+    }
+
+    public void setTrunkOpen(boolean trunkOpen) {
+        this.trunkOpen = trunkOpen;
+    }
+
+    public void openTrunk() {
+        // open the trunk
     }
 }
