@@ -7,7 +7,13 @@ public class Vehicle {
     private int fuelCapacity;
     private int speed;
 
-    // constructor
+    public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int speed) {
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+        this.speed = speed;
+    }
 
     public String getColor() {
         return color;
@@ -39,6 +45,14 @@ public class Vehicle {
 
     public void setFuelCapacity(int fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
     }
 
     public void accelerate(int speed) {
